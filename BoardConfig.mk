@@ -6,6 +6,23 @@
 #
 
 DEVICE_PATH := device/oppo/CPH1717
+SHRP_PATH := device/oppo/CPH1717
+
+# SHRP Props
+SHRP_MAINTAINER := ItzKaguya
+SHRP_DEVICE_CODE := CPH1717
+SHRP_REC_TYPE := SAR
+SHRP_DEVICE_TYPE := A/B
+SHRP_EXPRESS := true
+SHRP_EXPRESS_USE_DATA := true
+SHRP_DARK := true
+SHRP_EDL_MODE := 0
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_AB := true
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
